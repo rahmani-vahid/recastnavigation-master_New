@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{2046F8A5-B22C-6145-8C9B-E2173AF71122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{64E9DC45-283A-3148-8096-77F350E0F09E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\fastlz">
+      <UniqueIdentifier>{3EC9BC79-E0B4-8846-B9EA-AA613E992B6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8636CE51-BEA9-6F44-9868-D197FBB98544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\improbable">
+      <UniqueIdentifier>{f40538f4-6028-4e8a-859e-c307e8c4d8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\improbable\detail">
+      <UniqueIdentifier>{7eef5df7-78f0-4724-b7ff-081d43f9abb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\ChunkyTriMesh.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ConvexVolumeTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CrowdTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Filelist.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\imgui.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\imguiRenderGL.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\InputGeom.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\MeshLoaderObj.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\NavmeshPruneTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\NavMeshTesterTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OffMeshConnectionTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\PerfTimer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SampleInterfaces.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_Debug.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_SoloMesh.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_TempObstacles.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_TileMesh.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SDLMain.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SlideShow.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\TestCase.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ValueHistory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Contrib\fastlz\fastlz.h">
+      <Filter>Contrib\fastlz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\glut.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\c_schema.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\c_worker.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\collections.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\standard_library.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\view.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\worker.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\callbacks.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\client_handle.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\collections.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\components.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\connection.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\development_auth.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\dispatcher.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\dynamic.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\entity.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\extract.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\future.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\metrics.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\request_id.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\result.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\snapshot.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\version.i.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\detail\worker_detail.h">
+      <Filter>Include\improbable\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\improbable\pathfinding.h">
+      <Filter>Include\improbable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ChunkyTriMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ConvexVolumeTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrowdTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Filelist.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgui.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imguiRenderGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InputGeom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MeshLoaderObj.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NavMeshPruneTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NavMeshTesterTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OffMeshConnectionTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PerfTimer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SampleInterfaces.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_Debug.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_SoloMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_TempObstacles.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_TileMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SlideShow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestCase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ValueHistory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Contrib\fastlz\fastlz.c">
+      <Filter>Contrib\fastlz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>
