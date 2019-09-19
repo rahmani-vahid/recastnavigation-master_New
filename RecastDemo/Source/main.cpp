@@ -27,7 +27,7 @@
 #include <algorithm>
 #include <chrono>
 #include <cstdlib>
-//#include "improbable/pathfinding.h"
+#include "improbable/pathfinding.h"
 
 
 #ifdef WIN32
